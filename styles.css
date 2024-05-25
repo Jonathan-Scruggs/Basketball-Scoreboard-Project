@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "DS-Digital";
+    src: url("DS-DIGIT.TTF");
+    font-weight: 400;
+    font-style: normal;
+  }    
+
+html {
+    box-sizing: border-box;
+  }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1B244A;
+    
+}
+
+
+h3 {
+   color: #EEEEEE;
+   text-align: center;
+   font-family: Verdana, sans-serif;
+   font-size: 40px;
+}
+.score-display {
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    color: #F94F6D;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    position: relative;
+    font-size: 90px;
+    font-family: "DS-Digital",sans-serif;
+}
+.container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#home {
+    margin-right: 50px;
+}
+#away {
+    margin-left: 50px;
+}
+button{
+    width: 45px;
+    height: 45px;
+    margin-top: 26px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: inherit;
+    /*Button Text Stuff*/
+    color: #9AABD8;
+    font-weight: 400px;
+    font-size: 18px;;
+    font-family: "DS-Digital";
+
+}
+.buttons {
+    width: 155px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
